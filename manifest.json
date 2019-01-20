@@ -1,0 +1,26 @@
+  {
+    "name": "Meet Me There",
+    "version": "1.0",
+    "description": "Find the cheapest flight between various origins.",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "permissions": ["declarativeContent", "activeTab"],
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/plane16.png",
+        "32": "images/plane32.png",
+        "48": "images/plane48.png",
+        "128": "images/plane128.png"
+      }
+    },
+    "icons": {
+      "16": "images/plane16.png",
+      "32": "images/plane32.png",
+      "48": "images/plane48.png",
+      "128": "images/plane128.png"
+    },
+    "manifest_version": 2
+  }
